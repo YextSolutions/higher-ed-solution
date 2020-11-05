@@ -44,9 +44,6 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "c_associatedEvents.name": {
-          "textSearch": true
-        },
         "c_careers": {
           "facet": true,
           "textSearch": true
