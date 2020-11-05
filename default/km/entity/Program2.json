@@ -1,0 +1,31 @@
+{
+  "$id": "Program2",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "content": {
+    "c_activeInAnswers": true,
+    "c_careers": [
+      "Operations Management",
+      "Revenue Management"
+    ],
+    "c_degree": "Bachelor of Science",
+    "c_primaryCTA": {
+      "label": "Featured Courses",
+      "link": "https://www.yext.com",
+      "linkType": "URL"
+    },
+    "c_programFormat": [
+      "ONLINE",
+      "ACCELERATED"
+    ],
+    "c_secondaryCTA": {
+      "label": "Learn More",
+      "link": "https://www.yext.com",
+      "linkType": "URL"
+    },
+    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "yext/landingPageUrl": "https://www.yext.com",
+    "yext/name": "Program 2"
+  },
+  "entityType": "ce_academicProgram",
+  "labels": []
+}

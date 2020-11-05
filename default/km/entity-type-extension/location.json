@@ -5,7 +5,19 @@
   "entityType": "yext/location",
   "field": [
     {
-      "id": "c_activeInAnswers",
+      "id": "c_associatedAcademicPrograms",
+      "required": false
+    },
+    {
+      "id": "c_buildingType",
+      "required": false
+    },
+    {
+      "id": "c_discipline",
+      "required": false
+    },
+    {
+      "id": "c_photo",
       "required": false
     },
     {

@@ -1,0 +1,281 @@
+{
+  "$id": "higherEducationFAQUpload",
+  "$schema": "https://schema.yext.com/config/km/entity-upload-config/v1",
+  "displayName": "Higher Education - FAQ Upload",
+  "mapping": [
+    {
+      "sourceColumnName": "Entity Type",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/entityTypeId",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Entity ID",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/entityId",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Name (Question)",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/name",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Answer",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/answer",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        },
+        {
+          "richTextFormatConfiguration": {
+            "formatLanguage": "MARKDOWN",
+            "formatTransformValues": "ALLOW_SUPPORTED_FORMATTING"
+          },
+          "transformType": "RICH_TEXT_FORMATTING_TYPE"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Country/Region",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/countryCode",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Primary CTA \u003e Label",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_primaryCTA",
+        "propertyName": [
+          "label"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Primary CTA \u003e Link Type",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_primaryCTA",
+        "propertyName": [
+          "linkType"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Primary CTA \u003e Link",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_primaryCTA",
+        "propertyName": [
+          "link"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Secondary CTA \u003e Label",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_secondaryCTA",
+        "propertyName": [
+          "label"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Secondary CTA \u003e Link Type",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_secondaryCTA",
+        "propertyName": [
+          "linkType"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Secondary CTA \u003e Link",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_secondaryCTA",
+        "propertyName": [
+          "link"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Active in Answers",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_activeInAnswers",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Keywords",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/keywords",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        },
+        {
+          "delimitedColumnConfiguration": {
+            "delimiter": "COMMA"
+          },
+          "transformType": "DELIMITED_COLUMNS"
+        }
+      ]
+    }
+  ],
+  "additionalField": [],
+  "action": []
+}

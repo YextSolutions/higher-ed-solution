@@ -1,7 +1,6 @@
 {
   "$id": "c_photo",
   "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "Thumbnail Photo to be featured on the Answers Card",
   "displayName": "Photo",
   "group": "NONE",
   "localization": "PRIMARY_ONLY",

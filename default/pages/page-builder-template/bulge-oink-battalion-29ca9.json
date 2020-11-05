@@ -3,7 +3,7 @@
   "$schema": "https://schema.yext.com/config/pages/page-builder-template/v1",
   "PageSetType": "TEMPLATE",
   "Name": "Location Template",
-  "EntityTypeName": "location",
+  "EntityTypeName": "ce_academicBuilding",
   "PageSetConfig": {
     "ContentMapping": {
       "ModuleMappings": [
@@ -646,97 +646,6 @@
               "ExternalEntityId": "",
               "InputType": "CONSTANT",
               "Sink": "headline",
-              "StringValue": "Products or Services at this Location"
-            }
-          ],
-          "DefaultScss": "$spacer: 1rem;\n\n// Variables for description text truncation\n$lh: 22;\n$line-height: 22px;\n\n$max-height: 180px;\n$mh: 180;\n$max-num-lines: floor($mh / $lh);\n\n$max-height-tablet: 90px;\n$mht: 90;\n$max-num-lines-tablet: floor($mht / $lh);\n\n$max-height-desktop: 68px;\n$mhd: 68;\n$max-num-lines-desktop: floor($mhd / $lh);\n\n.module-container {\n  padding: ($spacer * 2) 15px;\n}\n\nul {\n  padding-inline-start: 0;\n  margin: 0 $spacer;\n}\n\n.row {\n  justify-content: center;\n}\n\n.headline {\n  font-size: 2em;\n  margin-bottom: $spacer;\n\n  @include media-breakpoint-down(sm) {\n    text-align: center;\n  }\n}\n\n.item-col {\n  margin-bottom: $spacer;\n  @include media-breakpoint-down(sm) {\n    text-align: center;\n  }\n}\n\n.section {\n  margin: $spacer $spacer 0;\n  font-size: 1em;\n  word-break: break-word;\n}\n\n.item {\n  height: 100%;\n  position: relative;\n  background-color: #f2f2f2;\n  text-align: left;\n  display: flex;\n  flex-direction: column;\n}\n\n.image {\n  object-fit: contain;\n  max-width: 100%;\n  width: 100%;\n\n  \u0026-container {\n    flex-shrink: 0;\n  }\n}\n\n.content-container {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  padding-bottom: $spacer;\n}\n\n.title {\n  font-size: 1.5em;\n  font-weight: normal;\n  word-break: break-word;\n}\n\n.subtitle {\n  font-size: 1.25em;\n  font-weight: normal;\n}\n\n.address {}\n\n.phone {}\n\n.email {}\n\n.description, .description-text {\n  max-height: $max-height;\n\n  @include media-breakpoint-up(sm) {\n    max-height: $max-height-tablet;\n  }\n\n  @include media-breakpoint-up(lg) {\n    max-height: $max-height-desktop;\n  }\n}\n\n.description-text {\n  -webkit-line-clamp: $max-num-lines;\n  display: -webkit-box;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n\n  @include media-breakpoint-up(sm) {\n    -webkit-line-clamp: $max-num-lines-tablet;\n  }\n\n  @include media-breakpoint-up(lg) {\n    -webkit-line-clamp: $max-num-lines-desktop;\n  }\n}\n\n.text-list {}\n\n.list-item {\n  margin-left: -5px;\n}\n\n.cta {\n  font-size: 1em;\n  text-decoration: none;\n\n  \u0026-container {\n    display: flex;\n    align-items: flex-end;\n    flex: 1;\n  }\n}\n",
-          "Js": "",
-          "ListParamEntries": [
-            {
-              "ContentMapEntries": [
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "Sink": "image"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "Sink": "title",
-                  "StringValue": "Title"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "Sink": "subtitle",
-                  "StringValue": "Subtitle"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "SelectedField": [
-                    "none"
-                  ],
-                  "Sink": "address"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "SelectedField": [
-                    "none"
-                  ],
-                  "Sink": "phone"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "SelectedField": [
-                    "none"
-                  ],
-                  "Sink": "email"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "Sink": "description",
-                  "StringValue": "Description Text"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "SelectedField": [
-                    "none"
-                  ],
-                  "Sink": "textList"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "Sink": "infoLinkText",
-                  "StringValue": "Link Here"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "Sink": "infoLink",
-                  "StringValue": "#"
-                }
-              ],
-              "SavedSearchSource": {
-                "ExternalSearchId": "65749022"
-              },
-              "Sink": "items"
-            }
-          ],
-          "ModuleId": "9ueZSpFxVU",
-          "Scss": "$spacer: 1rem;\n\n// Variables for description text truncation\n$lh: 22;\n$line-height: 22px;\n\n$max-height: 180px;\n$mh: 180;\n$max-num-lines: floor($mh / $lh);\n\n$max-height-tablet: 90px;\n$mht: 90;\n$max-num-lines-tablet: floor($mht / $lh);\n\n$max-height-desktop: 68px;\n$mhd: 68;\n$max-num-lines-desktop: floor($mhd / $lh);\n\n.module-container {\n  padding: ($spacer * 2) 15px;\n}\n\nul {\n  padding-inline-start: 0;\n  margin: 0 $spacer;\n}\n\n.row {\n  justify-content: center;\n}\n\n.headline {\n  font-size: 2em;\n  margin-bottom: $spacer;\n\n  @include media-breakpoint-down(sm) {\n    text-align: center;\n  }\n}\n\n.item-col {\n  margin-bottom: $spacer;\n  @include media-breakpoint-down(sm) {\n    text-align: center;\n  }\n}\n\n.section {\n  margin: $spacer $spacer 0;\n  font-size: 1em;\n  word-break: break-word;\n}\n\n.item {\n  height: 100%;\n  position: relative;\n  background-color: #f2f2f2;\n  text-align: left;\n  display: flex;\n  flex-direction: column;\n}\n\n.image {\n  object-fit: contain;\n  max-width: 100%;\n  width: 100%;\n\n  \u0026-container {\n    flex-shrink: 0;\n  }\n}\n\n.content-container {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  padding-bottom: $spacer;\n}\n\n.title {\n  font-size: 1.5em;\n  font-weight: normal;\n  word-break: break-word;\n}\n\n.subtitle {\n  font-size: 1.25em;\n  font-weight: normal;\n}\n\n.address {}\n\n.phone {}\n\n.email {}\n\n.description, .description-text {\n  max-height: $max-height;\n\n  @include media-breakpoint-up(sm) {\n    max-height: $max-height-tablet;\n  }\n\n  @include media-breakpoint-up(lg) {\n    max-height: $max-height-desktop;\n  }\n}\n\n.description-text {\n  -webkit-line-clamp: $max-num-lines;\n  display: -webkit-box;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n\n  @include media-breakpoint-up(sm) {\n    -webkit-line-clamp: $max-num-lines-tablet;\n  }\n\n  @include media-breakpoint-up(lg) {\n    -webkit-line-clamp: $max-num-lines-desktop;\n  }\n}\n\n.text-list {}\n\n.list-item {\n  margin-left: -5px;\n}\n\n.cta {\n  font-size: 1em;\n  text-decoration: none;\n\n  \u0026-container {\n    display: flex;\n    align-items: flex-end;\n    flex: 1;\n  }\n}\n"
-        },
-        {
-          "ContentMapEntries": [
-            {
-              "ExternalEntityId": "",
-              "InputType": "CONSTANT",
-              "Sink": "headline",
               "StringValue": "Features"
             },
             {
@@ -892,12 +801,6 @@
         "Id": "JHwuALSW_v",
         "Module": "centered_text_list",
         "Version": 30
-      },
-      {
-        "DisplayNameOverride": "",
-        "Id": "9ueZSpFxVU",
-        "Module": "item_list_i",
-        "Version": 20
       },
       {
         "DisplayNameOverride": "",

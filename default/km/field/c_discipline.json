@@ -1,0 +1,18 @@
+{
+  "$id": "c_discipline",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Discipline",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "yext/string",
+      "type": {
+        "stringType": {
+          "stereotype": "SIMPLE"
+        }
+      }
+    }
+  },
+  "typeId": "yext/list"
+}

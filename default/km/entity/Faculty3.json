@@ -1,0 +1,76 @@
+{
+  "$id": "Faculty3",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "content": {
+    "c_activeInAnswers": true,
+    "c_associatedAcademicPrograms": [
+      "Program1"
+    ],
+    "c_degree": "Doctor of Nursing Practice",
+    "c_discipline": [
+      "Nursing"
+    ],
+    "c_educationInstitution": [
+      "XYZ University"
+    ],
+    "c_photo": {
+      "height": 597,
+      "sourceUrl": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/582x597.png",
+      "thumbnails": [
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/438x450.png",
+          "width": 438
+        },
+        {
+          "height": 201,
+          "url": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/196x201.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/582x597.png",
+      "width": 582
+    },
+    "c_primaryCTA": {
+      "label": "Meet John",
+      "link": "[[landingPageUrl]]",
+      "linkType": "URL"
+    },
+    "c_secondaryCTA": {
+      "label": "Email",
+      "link": "[[emails]]",
+      "linkType": "EMAIL"
+    },
+    "c_title": "Associate Professor",
+    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "yext/emails": [
+      "email@yext.com"
+    ],
+    "yext/firstName": "John",
+    "yext/headshot": {
+      "height": 597,
+      "sourceUrl": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/582x597.png",
+      "thumbnails": [
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/438x450.png",
+          "width": 438
+        },
+        {
+          "height": 201,
+          "url": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/196x201.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/582x597.png",
+      "width": 582
+    },
+    "yext/landingPageUrl": "https://www.yext.com",
+    "yext/lastName": "Smith",
+    "yext/mainPhone": "+18006004444",
+    "yext/middleName": "K",
+    "yext/name": "John K Smith, DNP"
+  },
+  "entityType": "ce_faculty",
+  "labels": []
+}

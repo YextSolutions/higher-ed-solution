@@ -1,0 +1,85 @@
+{
+  "$id": "Faculty1",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "content": {
+    "c_activeInAnswers": true,
+    "c_areasOfInterest": [
+      "Supply Chain Management",
+      "Quantitative Methods",
+      "Operations Management"
+    ],
+    "c_associatedAcademicPrograms": [
+      "Program2"
+    ],
+    "c_degree": "PhD",
+    "c_discipline": [
+      "Operations Management \u0026 Business Analytics"
+    ],
+    "c_educationInstitution": [
+      "ABC University"
+    ],
+    "c_photo": {
+      "height": 597,
+      "sourceUrl": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/582x597.png",
+      "thumbnails": [
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/438x450.png",
+          "width": 438
+        },
+        {
+          "height": 201,
+          "url": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/196x201.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/582x597.png",
+      "width": 582
+    },
+    "c_primaryCTA": {
+      "label": "Meet Jane",
+      "link": "[[landingPageUrl]]",
+      "linkType": "URL"
+    },
+    "c_research": [
+      "Dynamic Pricing in Search Marketing",
+      "Supply Chain Optimization"
+    ],
+    "c_secondaryCTA": {
+      "label": "Email",
+      "link": "[[emails]]",
+      "linkType": "EMAIL"
+    },
+    "c_title": "Professor",
+    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "yext/emails": [
+      "janedoe@yext.com"
+    ],
+    "yext/firstName": "Jane",
+    "yext/headshot": {
+      "height": 597,
+      "sourceUrl": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/582x597.png",
+      "thumbnails": [
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/438x450.png",
+          "width": 438
+        },
+        {
+          "height": 201,
+          "url": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/196x201.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/582x597.png",
+      "width": 582
+    },
+    "yext/landingPageUrl": "http://www.yext.com",
+    "yext/lastName": "Doe",
+    "yext/mainPhone": "+18006004444",
+    "yext/middleName": "L",
+    "yext/name": "Jane L Doe, PhD"
+  },
+  "entityType": "ce_faculty",
+  "labels": []
+}

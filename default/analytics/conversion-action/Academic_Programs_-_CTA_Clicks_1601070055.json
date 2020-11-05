@@ -1,0 +1,30 @@
+{
+  "$id": "Academic_Programs_-_CTA_Clicks_1601070055",
+  "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
+  "conversionName": "Academic Programs - CTA Clicks",
+  "conversionType": "PAGE_VIEW",
+  "conversionValueType": "SAME",
+  "conversionValueAmount": 5.0,
+  "conversionTerm": {
+    "startDate": "2020-09-25"
+  },
+  "conversionTrigger": {
+    "clickTriggers": [
+      {
+        "clickType": "CALL_TO_ACTION",
+        "entityFilter": {
+          "entityTypeIn": [
+            "ce_academicProgram"
+          ]
+        },
+        "media": [
+          {
+            "mediumType": "ALL_ANSWERS_EXPERIENCES"
+          }
+        ]
+      }
+    ],
+    "completionRate": 100.0
+  },
+  "enabled": true
+}

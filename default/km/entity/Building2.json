@@ -1,0 +1,25 @@
+{
+  "$id": "Building2",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "content": {
+    "c_buildingType": "Library",
+    "c_primaryCTA": {
+      "label": "Learn More",
+      "link": "https://www.yext.com",
+      "linkType": "URL"
+    },
+    "yext/address": {
+      "city": "New York",
+      "countryCode": "US",
+      "line1": "1 Madison Avenue",
+      "postalCode": "10010",
+      "region": "NY"
+    },
+    "yext/addressHidden": false,
+    "yext/landingPageUrl": "https://www.yext.com",
+    "yext/name": "Academic Building 2",
+    "yext/timezone": "America/New_York"
+  },
+  "entityType": "yext/location",
+  "labels": []
+}

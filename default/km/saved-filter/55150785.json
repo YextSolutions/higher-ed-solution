@@ -1,0 +1,21 @@
+{
+  "$id": "55150785",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "Answers - Academic Buildings",
+  "filter": {
+    "entityField": [
+      {
+        "fieldId": "yext/closed",
+        "searchBool": "FALSE"
+      }
+    ],
+    "entityType": [
+      {
+        "entityTypeId": [
+          "yext/location"
+        ],
+        "type": "IS"
+      }
+    ]
+  }
+}

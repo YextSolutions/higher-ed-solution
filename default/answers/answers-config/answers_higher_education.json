@@ -1,0 +1,237 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "answers_higher_education",
+  "name": "Answers Higher Education",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "academic_buildings": {
+      "entityTypes": [
+        "location"
+      ],
+      "name": "Locations",
+      "savedSearchId": "55150785",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_associatedAcademicPrograms.name": {
+          "textSearch": true
+        },
+        "c_buildingType": {
+          "facet": true,
+          "textSearch": true
+        },
+        "c_discipline": {
+          "facet": true,
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "academic_programs": {
+      "entityTypes": [
+        "ce_academicProgram"
+      ],
+      "name": "Academic Programs",
+      "savedSearchId": "55156184",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_associatedEvents.name": {
+          "textSearch": true
+        },
+        "c_careers": {
+          "facet": true,
+          "textSearch": true
+        },
+        "c_degree": {
+          "facet": true,
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "c_programFormat": {
+          "facet": true,
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "keywords": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "events": {
+      "entityTypes": [
+        "event"
+      ],
+      "name": "Events",
+      "savedSearchId": "54459713",
+      "searchableFields": {
+        "address": {
+          "directAnswer": true
+        },
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_associatedAcademicPrograms.name": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        },
+        "time.start": {
+          "directAnswer": true,
+          "sortable": true
+        }
+      },
+      "sortBys": [
+        {
+          "type": "RELEVANCE"
+        },
+        {
+          "direction": "ASC",
+          "field": "time.start",
+          "type": "FIELD"
+        }
+      ],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "faculty": {
+      "entityTypes": [
+        "ce_faculty"
+      ],
+      "name": "Faculty",
+      "savedSearchId": "55145386",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_areasOfInterest": {
+          "facet": true,
+          "textSearch": true
+        },
+        "c_associatedAcademicPrograms.name": {
+          "textSearch": true
+        },
+        "c_degree": {
+          "facet": true,
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "c_discipline": {
+          "facet": true,
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "c_educationInstitution": {
+          "facet": true,
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "c_research": {
+          "textSearch": true
+        },
+        "c_title": {
+          "facet": true,
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "firstName": {
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "lastName": {
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "name": {
+          "nlpFilter": true,
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "faqs": {
+      "entityTypes": [
+        "faq"
+      ],
+      "name": "FAQs",
+      "savedSearchId": "54454314",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "keywords": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "links": {
+      "apiKey": "REPLACE_API_KEY",
+      "cx": "REPLACE_CX_KEY",
+      "name": "Links",
+      "siteRestricted": false,
+      "source": "GOOGLE_CSE",
+      "useSynonyms": "ALL_SYNONYMS"
+    }
+  },
+  "autocomplete": {
+    "disablePopularQueries": false,
+    "hardcodedPrompts": [
+      "What is Yext?",
+      "What majors do you offer?",
+      "Locations near me"
+    ]
+  },
+  "synonyms": {
+    "oneWay": [],
+    "synonymSet": [
+      [
+        "covid",
+        "coronavirus",
+        "corona",
+        "virus",
+        "covid19",
+        "covid-19"
+      ],
+      [
+        "major",
+        "majors",
+        "academic program",
+        "academic programs"
+      ],
+      [
+        "calendar",
+        "events"
+      ],
+      [
+        "faculty",
+        "staff"
+      ],
+      [
+        "location",
+        "locations",
+        "academic building",
+        "academic buildings"
+      ]
+    ]
+  },
+  "localizations": {}
+}
