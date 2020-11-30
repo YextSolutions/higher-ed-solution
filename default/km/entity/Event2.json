@@ -2,7 +2,7 @@
   "$id": "Event2",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
-    "c_activeInAnswers": true,
+    "c_activeInAnswers": "YES",
     "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "yext/name": "Event 2",
     "yext/ticketUrl": "https://www.yext.com",
