@@ -2,7 +2,7 @@
   "$id": "bulge-oink-battalion-29ca9",
   "$schema": "https://schema.yext.com/config/pages/page-builder-template/v1",
   "PageSetType": "TEMPLATE",
-  "Name": "Location Template",
+  "Name": "Academic Building Template",
   "EntityTypeName": "location",
   "PageSetConfig": {
     "ContentMapping": {

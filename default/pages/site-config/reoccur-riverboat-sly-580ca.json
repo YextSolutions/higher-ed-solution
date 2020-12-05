@@ -1,7 +1,7 @@
 {
   "$id": "reoccur-riverboat-sly-580ca",
   "$schema": "https://schema.yext.com/config/pages/site-config/v1",
-  "siteName": "Location Template",
+  "siteName": "Academic Building Template",
   "features": [
     {
       "featureType": "SELF_SERVE_PAGE_SET",
