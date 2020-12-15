@@ -1,5 +1,5 @@
 {
-  "$id": "sT_Higher_Education_2020_09_25_1601069060312252795config",
+  "$id": "higherEducation-academicProgramUpload",
   "$schema": "https://schema.yext.com/config/km/entity-upload-config/v1",
   "displayName": "Higher Education - Academic Program Upload",
   "mapping": [

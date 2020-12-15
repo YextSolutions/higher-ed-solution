@@ -1,7 +1,7 @@
 {
-  "$id": "sT_Higher_Education_2020_09_28_1601343321030253375config",
+  "$id": "higherEducation-facultyUpload",
   "$schema": "https://schema.yext.com/config/km/entity-upload-config/v1",
-  "displayName": "Higher Education - Academic Building Upload",
+  "displayName": "Higher Education - Faculty Upload",
   "mapping": [
     {
       "sourceColumnName": "Entity Type",
@@ -61,13 +61,11 @@
       ]
     },
     {
-      "sourceColumnName": "Address \u003e Line 1",
+      "sourceColumnName": "First Name",
       "ignoreColumn": false,
       "fieldReference": {
-        "id": "yext/address",
-        "propertyName": [
-          "line1"
-        ]
+        "id": "yext/firstName",
+        "propertyName": []
       },
       "transform": [
         {
@@ -82,13 +80,11 @@
       ]
     },
     {
-      "sourceColumnName": "Address \u003e Line 2",
+      "sourceColumnName": "Middle Name",
       "ignoreColumn": false,
       "fieldReference": {
-        "id": "yext/address",
-        "propertyName": [
-          "line2"
-        ]
+        "id": "yext/middleName",
+        "propertyName": []
       },
       "transform": [
         {
@@ -103,55 +99,11 @@
       ]
     },
     {
-      "sourceColumnName": "City/Locality",
+      "sourceColumnName": "Last Name",
       "ignoreColumn": false,
       "fieldReference": {
-        "id": "yext/address",
-        "propertyName": [
-          "city"
-        ]
-      },
-      "transform": [
-        {
-          "transformType": "TRIM_WHITESPACE"
-        },
-        {
-          "blankValueConfiguration": {
-            "handleBlankValues": "IGNORE"
-          },
-          "transformType": "HANDLE_BLANK_VALUES"
-        }
-      ]
-    },
-    {
-      "sourceColumnName": "State/Province/Region",
-      "ignoreColumn": false,
-      "fieldReference": {
-        "id": "yext/address",
-        "propertyName": [
-          "region"
-        ]
-      },
-      "transform": [
-        {
-          "transformType": "TRIM_WHITESPACE"
-        },
-        {
-          "blankValueConfiguration": {
-            "handleBlankValues": "IGNORE"
-          },
-          "transformType": "HANDLE_BLANK_VALUES"
-        }
-      ]
-    },
-    {
-      "sourceColumnName": "Postal Code",
-      "ignoreColumn": false,
-      "fieldReference": {
-        "id": "yext/address",
-        "propertyName": [
-          "postalCode"
-        ]
+        "id": "yext/lastName",
+        "propertyName": []
       },
       "transform": [
         {
@@ -171,27 +123,6 @@
       "fieldReference": {
         "id": "yext/countryCode",
         "propertyName": []
-      },
-      "transform": [
-        {
-          "transformType": "TRIM_WHITESPACE"
-        },
-        {
-          "blankValueConfiguration": {
-            "handleBlankValues": "IGNORE"
-          },
-          "transformType": "HANDLE_BLANK_VALUES"
-        }
-      ]
-    },
-    {
-      "sourceColumnName": "Photo \u003e URL",
-      "ignoreColumn": false,
-      "fieldReference": {
-        "id": "c_photo",
-        "propertyName": [
-          "url"
-        ]
       },
       "transform": [
         {
@@ -229,6 +160,73 @@
         },
         {
           "transformType": "INFER_PHONE_ISO_COUNTRY_CODE"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Headshot \u003e URL",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/headshot",
+        "propertyName": [
+          "url"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Photo \u003e URL",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_photo",
+        "propertyName": [
+          "url"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Emails",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/emails",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        },
+        {
+          "delimitedColumnConfiguration": {
+            "delimiter": "COMMA"
+          },
+          "transformType": "DELIMITED_COLUMNS"
         }
       ]
     },
@@ -271,10 +269,35 @@
       ]
     },
     {
-      "sourceColumnName": "Building Type",
+      "sourceColumnName": "Areas of Interest",
       "ignoreColumn": false,
       "fieldReference": {
-        "id": "c_buildingType",
+        "id": "c_areasOfInterest",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        },
+        {
+          "delimitedColumnConfiguration": {
+            "delimiter": "COMMA"
+          },
+          "transformType": "DELIMITED_COLUMNS"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Degree",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_degree",
         "propertyName": []
       },
       "transform": [
@@ -311,6 +334,75 @@
             "delimiter": "COMMA"
           },
           "transformType": "DELIMITED_COLUMNS"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Education - Institution",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_educationInstitution",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        },
+        {
+          "delimitedColumnConfiguration": {
+            "delimiter": "COMMA"
+          },
+          "transformType": "DELIMITED_COLUMNS"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Research",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_research",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        },
+        {
+          "delimitedColumnConfiguration": {
+            "delimiter": "COMMA"
+          },
+          "transformType": "DELIMITED_COLUMNS"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Title",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_title",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
         }
       ]
     },
@@ -357,6 +449,132 @@
             "delimiter": "COMMA"
           },
           "transformType": "DELIMITED_COLUMNS"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Primary CTA \u003e Label",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_primaryCTA",
+        "propertyName": [
+          "label"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Primary CTA \u003e Link Type",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_primaryCTA",
+        "propertyName": [
+          "linkType"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Primary CTA \u003e Link",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_primaryCTA",
+        "propertyName": [
+          "link"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Secondary CTA \u003e Label",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_secondaryCTA",
+        "propertyName": [
+          "label"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Secondary CTA \u003e Link Type",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_secondaryCTA",
+        "propertyName": [
+          "linkType"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Secondary CTA \u003e Link",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_secondaryCTA",
+        "propertyName": [
+          "link"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "$id": "sT_Higher_Education_2020_09_25_1601071230791252809config",
+  "$id": "higherEducation-eventUpload",
   "$schema": "https://schema.yext.com/config/km/entity-upload-config/v1",
   "displayName": "Higher Education - Events",
   "mapping": [
