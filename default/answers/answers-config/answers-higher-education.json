@@ -145,15 +145,12 @@
           "textSearch": true
         },
         "firstName": {
-          "nlpFilter": true,
-          "textSearch": true
+          "phraseMatch": true
         },
         "lastName": {
-          "nlpFilter": true,
-          "textSearch": true
+          "phraseMatch": true
         },
         "name": {
-          "nlpFilter": true,
           "textSearch": true
         }
       },
