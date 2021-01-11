@@ -1,5 +1,5 @@
 {
-  "$id": "1008",
+  "$id": "c_faculty-title-clicks",
   "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
   "conversionName": "Faculty - Title Clicks",
   "conversionType": "PAGE_VIEW",
