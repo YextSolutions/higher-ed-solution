@@ -42,6 +42,10 @@
       "required": false
     },
     {
+      "id": "yext/keywords",
+      "required": false
+    },
+    {
       "id": "c_photo",
       "required": false
     },
