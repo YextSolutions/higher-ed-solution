@@ -38,6 +38,9 @@
         },
         "name": {
           "textSearch": true
+        },
+        "keywords": {
+          "textSearch": true
         }
       },
       "sortBys": [],
@@ -161,6 +164,9 @@
           "phraseMatch": true
         },
         "name": {
+          "textSearch": true
+        },
+        "keywords": {
           "textSearch": true
         }
       },
