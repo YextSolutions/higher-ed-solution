@@ -4,9 +4,9 @@
   "conversionName": "Events - CTA Clicks",
   "conversionType": "SIGN_UP",
   "conversionValueType": "SAME",
-  "conversionValueAmount": 2.0,
+  "conversionValueAmount": 50.0,
   "conversionTerm": {
-    "startDate": "2020-09-25"
+    "startDate": "2020-08-27"
   },
   "conversionTrigger": {
     "clickTriggers": [
@@ -24,7 +24,7 @@
         ]
       }
     ],
-    "completionRate": 100.0
+    "completionRate": 25.0
   },
   "enabled": true
 }

@@ -4,7 +4,7 @@
   "conversionName": "Academic Buildings - CTA Clicks",
   "conversionType": "PAGE_VIEW",
   "conversionValueType": "SAME",
-  "conversionValueAmount": 2.0,
+  "conversionValueAmount": 50.0,
   "conversionTerm": {
     "startDate": "2020-09-25"
   },
@@ -14,7 +14,7 @@
         "clickType": "CALL_TO_ACTION",
         "entityFilter": {
           "entityTypeIn": [
-            "ce_academicBuilding"
+            "yext/location"
           ]
         },
         "media": [
@@ -24,7 +24,7 @@
         ]
       }
     ],
-    "completionRate": 100.0
+    "completionRate": 25.0
   },
   "enabled": true
 }

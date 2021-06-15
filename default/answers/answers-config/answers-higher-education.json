@@ -22,6 +22,9 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
+        "builtin.location": {
+          "nlpFilter": true
+        },
         "c_associatedAcademicPrograms.name": {
           "textSearch": true
         },
@@ -31,8 +34,7 @@
         },
         "c_discipline": {
           "facet": true,
-          "nlpFilter": true,
-          "textSearch": true
+          "nlpFilter": true
         },
         "name": {
           "textSearch": true
@@ -57,13 +59,11 @@
         },
         "c_degree": {
           "facet": true,
-          "nlpFilter": true,
-          "textSearch": true
+          "nlpFilter": true
         },
         "c_programFormat": {
           "facet": true,
-          "nlpFilter": true,
-          "textSearch": true
+          "nlpFilter": true
         },
         "keywords": {
           "textSearch": true
@@ -101,6 +101,9 @@
         },
         "time.start": {
           "sortable": true
+        },
+        "keywords": {
+          "textSearch": true
         }
       },
       "sortBys": [
@@ -134,26 +137,22 @@
         },
         "c_degree": {
           "facet": true,
-          "nlpFilter": true,
-          "textSearch": true
+          "nlpFilter": true
         },
         "c_discipline": {
           "facet": true,
-          "nlpFilter": true,
-          "textSearch": true
+          "nlpFilter": true
         },
         "c_educationInstitution": {
           "facet": true,
-          "nlpFilter": true,
-          "textSearch": true
+          "nlpFilter": true
         },
         "c_research": {
           "textSearch": true
         },
         "c_title": {
           "facet": true,
-          "nlpFilter": true,
-          "textSearch": true
+          "nlpFilter": true
         },
         "firstName": {
           "phraseMatch": true

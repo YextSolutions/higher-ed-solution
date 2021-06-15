@@ -12,6 +12,12 @@
           ],
           "type": "IS_NOT"
         }
+      },
+      {
+        "dateTimePastFuture": {
+          "type": "FUTURE"
+        },
+        "fieldId": "yext/time.end"
       }
     ],
     "entityType": [
