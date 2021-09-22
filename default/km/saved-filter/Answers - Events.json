@@ -17,13 +17,13 @@
         "dateTimePastFuture": {
           "type": "FUTURE"
         },
-        "fieldId": "yext/time.end"
+        "fieldId": "time.end"
       }
     ],
     "entityType": [
       {
         "entityTypeId": [
-          "yext/event"
+          "event"
         ],
         "type": "IS"
       }

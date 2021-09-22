@@ -22,9 +22,9 @@
       "link": "https://www.yext.com",
       "linkType": "URL"
     },
-    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "yext/landingPageUrl": "https://www.yext.com",
-    "yext/name": "Program 2"
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "landingPageUrl": "https://www.yext.com",
+    "name": "Program 2"
   },
   "entityType": "ce_academicProgram",
   "labels": []

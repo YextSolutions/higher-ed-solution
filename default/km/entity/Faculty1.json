@@ -51,12 +51,12 @@
       "linkType": "EMAIL"
     },
     "c_title": "Professor",
-    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "yext/emails": [
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "emails": [
       "janedoe@yext.com"
     ],
-    "yext/firstName": "Jane",
-    "yext/headshot": {
+    "firstName": "Jane",
+    "headshot": {
       "height": 597,
       "sourceUrl": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/582x597.png",
       "thumbnails": [
@@ -74,11 +74,11 @@
       "url": "https://a.mktgcdn.com/p/leDnEgo1Eu13nRfM-LLA1eD25b1_pqAEPI8igLzuXBM/582x597.png",
       "width": 582
     },
-    "yext/landingPageUrl": "http://www.yext.com",
-    "yext/lastName": "Doe",
-    "yext/mainPhone": "+18006004444",
-    "yext/middleName": "L",
-    "yext/name": "Jane L Doe, PhD"
+    "landingPageUrl": "http://www.yext.com",
+    "lastName": "Doe",
+    "mainPhone": "+18006004444",
+    "middleName": "L",
+    "name": "Jane L Doe, PhD"
   },
   "entityType": "ce_faculty",
   "labels": []

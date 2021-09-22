@@ -3,20 +3,20 @@
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
     "c_activeInAnswers": "YES",
-    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "yext/name": "Event 2",
-    "yext/ticketUrl": "https://www.yext.com",
-    "yext/time": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "name": "Event 2",
+    "ticketUrl": "https://www.yext.com",
+    "time": {
       "end": "2021-01-01T17:00",
       "start": "2021-01-01T14:00"
     },
-    "yext/timezone": "America/New_York",
-    "yext/websiteUrl": {
+    "timezone": "America/New_York",
+    "websiteUrl": {
       "displayUrl": "https://www.yext.com",
       "preferDisplayUrl": false,
       "url": "https://www.yext.com"
     }
   },
-  "entityType": "yext/event",
+  "entityType": "event",
   "labels": []
 }
