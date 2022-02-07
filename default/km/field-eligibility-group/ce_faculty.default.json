@@ -1,0 +1,28 @@
+{
+  "$id": "ce_faculty.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Faculty-default",
+  "entityType": "ce_faculty",
+  "fields": [
+    "landingPageUrl",
+    "description",
+    "c_activeInAnswers",
+    "c_areasOfInterest",
+    "c_associatedAcademicPrograms",
+    "c_degree",
+    "c_discipline",
+    "c_educationInstitution",
+    "keywords",
+    "c_photo",
+    "c_primaryCTA",
+    "c_research",
+    "c_secondaryCTA",
+    "c_title",
+    "emails",
+    "firstName",
+    "headshot",
+    "lastName",
+    "mainPhone",
+    "middleName"
+  ]
+}

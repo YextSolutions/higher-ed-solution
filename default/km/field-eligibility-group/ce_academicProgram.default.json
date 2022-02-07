@@ -1,0 +1,17 @@
+{
+  "$id": "ce_academicProgram.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Academic Program-default",
+  "entityType": "ce_academicProgram",
+  "fields": [
+    "landingPageUrl",
+    "description",
+    "c_activeInAnswers",
+    "c_careers",
+    "c_degree",
+    "c_primaryCTA",
+    "c_programFormat",
+    "c_secondaryCTA",
+    "keywords"
+  ]
+}
