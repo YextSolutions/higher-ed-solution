@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schema.yext.com/config/km/settings/v1",
+  "entityTypeSettings": [
+    {
+      "entityType": "ce_academicProgram",
+      "disabled": false
+    },
+    {
+      "entityType": "ce_faculty",
+      "disabled": false
+    },
+    {
+      "entityType": "event",
+      "disabled": false
+    },
+    {
+      "entityType": "faq",
+      "disabled": false
+    },
+    {
+      "entityType": "location",
+      "disabled": false
+    }
+  ]
+} 
