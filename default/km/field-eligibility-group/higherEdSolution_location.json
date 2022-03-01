@@ -1,11 +1,13 @@
 {
-  "$id": "event.default",
+  "$id": "higherEdSolution_location",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Event-default",
-  "entityType": "event",
+  "name": "higherEdSolution_Location-default",
+  "entityType": "location",
   "fields": [
-    "c_activeInAnswers",
     "c_associatedAcademicPrograms",
+    "c_buildingType",
+    "c_discipline",
+    "c_photo",
     "c_primaryCTA",
     "c_secondaryCTA"
   ]

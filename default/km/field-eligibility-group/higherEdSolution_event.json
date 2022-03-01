@@ -1,10 +1,11 @@
 {
-  "$id": "faq.default",
+  "$id": "higherEdSolution_event",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "FAQ-default",
-  "entityType": "faq",
+  "name": "higherEdSolution_Event-default",
+  "entityType": "event",
   "fields": [
     "c_activeInAnswers",
+    "c_associatedAcademicPrograms",
     "c_primaryCTA",
     "c_secondaryCTA"
   ]

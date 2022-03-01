@@ -1,7 +1,7 @@
 {
-  "$id": "ce_faculty.default",
+  "$id": "higherEdSolution_ce_faculty",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Faculty-default",
+  "name": "higherEdSolution_Faculty-default",
   "entityType": "ce_faculty",
   "fields": [
     "landingPageUrl",
