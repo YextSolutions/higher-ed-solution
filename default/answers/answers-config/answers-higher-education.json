@@ -10,7 +10,8 @@
         "fieldValues": {
           "eligibleFields": [
             "mainPhone"
-          ]
+          ],
+          "predictionMode": "CLASSIFIER"
         }
       },
       "entityTypes": [
@@ -36,13 +37,19 @@
           "facet": true,
           "nlpFilter": true
         },
-        "name": {
+        "keywords": {
           "textSearch": true
         },
-        "keywords": {
+        "name": {
           "textSearch": true
         }
       },
+      "semanticVerticalIntents": [
+        "locations near me",
+        "campus",
+        "campus map"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -75,6 +82,13 @@
           "textSearch": true
         }
       },
+      "semanticVerticalBias": 0.1,
+      "semanticVerticalIntents": [
+        "programs",
+        "majors",
+        "fields of study"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -84,7 +98,8 @@
           "eligibleFields": [
             "address",
             "time"
-          ]
+          ],
+          "predictionMode": "CLASSIFIER"
         }
       },
       "entityTypes": [
@@ -99,21 +114,29 @@
         "c_associatedAcademicPrograms.name": {
           "textSearch": true
         },
+        "keywords": {
+          "textSearch": true
+        },
         "name": {
           "textSearch": true
         },
         "time.start": {
           "sortable": true
-        },
-        "keywords": {
-          "textSearch": true
         }
       },
+      "semanticVerticalIntents": [
+        "events",
+        "upcoming events",
+        "conference"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [
         {
+          "buckets": [],
           "type": "RELEVANCE"
         },
         {
+          "buckets": [],
           "direction": "ASC",
           "field": "time.start",
           "type": "FIELD"
@@ -160,16 +183,23 @@
         "firstName": {
           "phraseMatch": true
         },
+        "keywords": {
+          "textSearch": true
+        },
         "lastName": {
           "phraseMatch": true
         },
         "name": {
           "textSearch": true
-        },
-        "keywords": {
-          "textSearch": true
         }
       },
+      "semanticVerticalBias": 0.1,
+      "semanticVerticalIntents": [
+        "faculty",
+        "professors",
+        "teachers"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -190,6 +220,11 @@
           "semanticTextSearch": true
         }
       },
+      "semanticVerticalIntents": [
+        "faqs",
+        "questions"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -197,34 +232,10 @@
       "apiKey": "REPLACE_API_KEY",
       "cx": "REPLACE_CX_KEY",
       "name": "Links",
+      "semanticVerticalIntents": [],
       "siteRestricted": false,
       "source": "GOOGLE_CSE",
       "useSynonyms": "ALL_SYNONYMS"
-    }
-  },
-  "querySuggestions": {
-    "popularQueriesBlacklistedTerms": [],
-    "universalPrompts": [
-      "FAQs",
-      "What majors do you offer?",
-      "upcoming virtual events"
-    ],
-    "verticalPrompts": {
-      "faqs": [
-        "[[name]]"
-      ],
-      "academic_buildings": [
-        "[[name]]"
-      ],
-      "academic_programs": [
-        "[[name]]"
-      ],
-      "faculty": [
-        "[[name]]"
-      ],
-      "events": [
-        "upcoming virtual events"
-      ]
     }
   },
   "synonyms": {
@@ -261,5 +272,32 @@
     ]
   },
   "localizations": {},
-  "additionalSearchablePlaces": []
+  "additionalSearchablePlaces": [],
+  "querySuggestions": {
+    "disablePopularQueries": false,
+    "verticalPromptsOnEmpty": false,
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
+      "FAQs",
+      "What majors do you offer?",
+      "upcoming virtual events"
+    ],
+    "verticalPrompts": {
+      "academic_buildings": [
+        "[[name]]"
+      ],
+      "academic_programs": [
+        "[[name]]"
+      ],
+      "events": [
+        "upcoming virtual events"
+      ],
+      "faculty": [
+        "[[name]]"
+      ],
+      "faqs": [
+        "[[name]]"
+      ]
+    }
+  }
 }
